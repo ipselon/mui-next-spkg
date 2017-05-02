@@ -1,0 +1,787 @@
+{
+  "pages": [
+    {
+      "pageName": "Page14",
+      "pagePath": "/mui-layouts",
+      "children": [
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {
+            "style": {
+              "padding": "3em"
+            }
+          },
+          "children": [
+            {
+              "type": "ThemeProvider",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "h3",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "textAlign": "center"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "With 3 columns"
+                    }
+                  ]
+                },
+                {
+                  "type": "LayoutContainer",
+                  "namespace": "MUI",
+                  "variant": "row with 3 cells",
+                  "props": {
+                    "gutter": 24
+                  },
+                  "children": [
+                    {
+                      "type": "LayoutItem",
+                      "variant": "default",
+                      "props": {
+                        "xs": 4
+                      },
+                      "children": [
+                        {
+                          "type": "Placeholder",
+                          "variant": "default",
+                          "props": {},
+                          "children": [],
+                          "namespace": "MUI"
+                        }
+                      ],
+                      "namespace": "MUI"
+                    },
+                    {
+                      "type": "LayoutItem",
+                      "variant": "default",
+                      "props": {
+                        "xs": 4
+                      },
+                      "children": [
+                        {
+                          "type": "Placeholder",
+                          "variant": "default",
+                          "props": {},
+                          "children": [],
+                          "namespace": "MUI"
+                        }
+                      ],
+                      "namespace": "MUI"
+                    },
+                    {
+                      "type": "LayoutItem",
+                      "variant": "default",
+                      "props": {
+                        "xs": 4
+                      },
+                      "children": [
+                        {
+                          "type": "Placeholder",
+                          "variant": "default",
+                          "props": {},
+                          "children": [],
+                          "namespace": "MUI"
+                        }
+                      ],
+                      "namespace": "MUI"
+                    }
+                  ]
+                },
+                {
+                  "type": "h3",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "textAlign": "center"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "With 2 columns"
+                    }
+                  ]
+                },
+                {
+                  "type": "LayoutContainer",
+                  "namespace": "MUI",
+                  "variant": "row with 2 cells",
+                  "props": {
+                    "gutter": 24
+                  },
+                  "children": [
+                    {
+                      "type": "LayoutItem",
+                      "variant": "default",
+                      "props": {
+                        "xs": 6
+                      },
+                      "children": [
+                        {
+                          "type": "Placeholder",
+                          "variant": "default",
+                          "props": {},
+                          "children": [],
+                          "namespace": "MUI"
+                        }
+                      ],
+                      "namespace": "MUI"
+                    },
+                    {
+                      "type": "LayoutItem",
+                      "variant": "default",
+                      "props": {
+                        "xs": 6
+                      },
+                      "children": [
+                        {
+                          "type": "Placeholder",
+                          "variant": "default",
+                          "props": {},
+                          "children": [],
+                          "namespace": "MUI"
+                        }
+                      ],
+                      "namespace": "MUI"
+                    }
+                  ]
+                },
+                {
+                  "type": "LayoutContainer",
+                  "variant": "default",
+                  "props": {
+                    "gutter": 24
+                  },
+                  "children": [
+                    {
+                      "type": "LayoutItem",
+                      "variant": "default",
+                      "props": {
+                        "xs": 12
+                      },
+                      "children": [
+                        {
+                          "type": "Placeholder",
+                          "variant": "default",
+                          "props": {},
+                          "children": [],
+                          "namespace": "MUI"
+                        }
+                      ],
+                      "namespace": "MUI"
+                    }
+                  ],
+                  "namespace": "MUI"
+                }
+              ],
+              "namespace": "MUI"
+            },
+            {
+              "type": "ThemeProvider",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "h3",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "textAlign": "center"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "1 centered column with 3 rows"
+                    }
+                  ]
+                },
+                {
+                  "type": "LayoutContainer",
+                  "variant": "default",
+                  "props": {
+                    "gutter": 24,
+                    "direction": "column",
+                    "align": "center"
+                  },
+                  "children": [
+                    {
+                      "type": "LayoutItem",
+                      "variant": "default",
+                      "props": {
+                        "xs": 4
+                      },
+                      "children": [
+                        {
+                          "type": "Placeholder",
+                          "variant": "default",
+                          "props": {},
+                          "children": [],
+                          "namespace": "MUI"
+                        }
+                      ],
+                      "namespace": "MUI"
+                    },
+                    {
+                      "type": "LayoutItem",
+                      "variant": "default",
+                      "props": {
+                        "xs": 4
+                      },
+                      "children": [
+                        {
+                          "type": "Placeholder",
+                          "variant": "default",
+                          "props": {},
+                          "children": [],
+                          "namespace": "MUI"
+                        }
+                      ],
+                      "namespace": "MUI"
+                    },
+                    {
+                      "type": "LayoutItem",
+                      "variant": "default",
+                      "props": {
+                        "xs": 4
+                      },
+                      "children": [
+                        {
+                          "type": "Placeholder",
+                          "variant": "default",
+                          "props": {},
+                          "children": [],
+                          "namespace": "MUI"
+                        }
+                      ],
+                      "namespace": "MUI"
+                    }
+                  ],
+                  "namespace": "MUI"
+                },
+                {
+                  "type": "h3",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "textAlign": "center"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Auto layout"
+                    }
+                  ]
+                },
+                {
+                  "type": "LayoutContainer",
+                  "variant": "default",
+                  "props": {
+                    "gutter": 24
+                  },
+                  "children": [
+                    {
+                      "type": "LayoutItem",
+                      "variant": "default",
+                      "props": {
+                        "xs": true
+                      },
+                      "children": [
+                        {
+                          "type": "Placeholder",
+                          "variant": "default",
+                          "props": {},
+                          "children": [],
+                          "namespace": "MUI"
+                        }
+                      ],
+                      "namespace": "MUI"
+                    },
+                    {
+                      "type": "LayoutItem",
+                      "variant": "default",
+                      "props": {
+                        "xs": true
+                      },
+                      "children": [
+                        {
+                          "type": "Placeholder",
+                          "variant": "default",
+                          "props": {},
+                          "children": [],
+                          "namespace": "MUI"
+                        }
+                      ],
+                      "namespace": "MUI"
+                    },
+                    {
+                      "type": "LayoutItem",
+                      "variant": "default",
+                      "props": {
+                        "xs": true
+                      },
+                      "children": [
+                        {
+                          "type": "Placeholder",
+                          "variant": "default",
+                          "props": {},
+                          "children": [],
+                          "namespace": "MUI"
+                        }
+                      ],
+                      "namespace": "MUI"
+                    },
+                    {
+                      "type": "LayoutItem",
+                      "variant": "default",
+                      "props": {
+                        "xs": true
+                      },
+                      "children": [
+                        {
+                          "type": "Placeholder",
+                          "variant": "default",
+                          "props": {},
+                          "children": [],
+                          "namespace": "MUI"
+                        }
+                      ],
+                      "namespace": "MUI"
+                    },
+                    {
+                      "type": "LayoutItem",
+                      "variant": "default",
+                      "props": {
+                        "xs": true
+                      },
+                      "children": [
+                        {
+                          "type": "Placeholder",
+                          "variant": "default",
+                          "props": {},
+                          "children": [],
+                          "namespace": "MUI"
+                        }
+                      ],
+                      "namespace": "MUI"
+                    }
+                  ],
+                  "namespace": "MUI"
+                }
+              ],
+              "namespace": "MUI"
+            },
+            {
+              "type": "ThemeProvider",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "h3",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "textAlign": "center"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "3 columns with 3 rows in each"
+                    }
+                  ]
+                },
+                {
+                  "type": "LayoutContainer",
+                  "namespace": "MUI",
+                  "variant": "row with 3 cells",
+                  "props": {
+                    "gutter": 24
+                  },
+                  "children": [
+                    {
+                      "type": "LayoutItem",
+                      "variant": "default",
+                      "props": {
+                        "xs": 4
+                      },
+                      "children": [
+                        {
+                          "type": "LayoutContainer",
+                          "variant": "default",
+                          "props": {
+                            "gutter": 24,
+                            "direction": "column",
+                            "align": "center"
+                          },
+                          "children": [
+                            {
+                              "type": "LayoutItem",
+                              "variant": "default",
+                              "props": {
+                                "xs": 12
+                              },
+                              "children": [
+                                {
+                                  "type": "Placeholder",
+                                  "variant": "default",
+                                  "props": {},
+                                  "children": [],
+                                  "namespace": "MUI"
+                                }
+                              ],
+                              "namespace": "MUI"
+                            },
+                            {
+                              "type": "LayoutItem",
+                              "variant": "default",
+                              "props": {
+                                "xs": 12
+                              },
+                              "children": [
+                                {
+                                  "type": "Placeholder",
+                                  "variant": "default",
+                                  "props": {},
+                                  "children": [],
+                                  "namespace": "MUI"
+                                }
+                              ],
+                              "namespace": "MUI"
+                            },
+                            {
+                              "type": "LayoutItem",
+                              "variant": "default",
+                              "props": {
+                                "xs": 12
+                              },
+                              "children": [
+                                {
+                                  "type": "Placeholder",
+                                  "variant": "default",
+                                  "props": {},
+                                  "children": [],
+                                  "namespace": "MUI"
+                                }
+                              ],
+                              "namespace": "MUI"
+                            }
+                          ],
+                          "namespace": "MUI"
+                        }
+                      ],
+                      "namespace": "MUI"
+                    },
+                    {
+                      "type": "LayoutItem",
+                      "variant": "default",
+                      "props": {
+                        "xs": 4
+                      },
+                      "children": [
+                        {
+                          "type": "LayoutContainer",
+                          "variant": "default",
+                          "props": {
+                            "gutter": 24,
+                            "direction": "column",
+                            "align": "center"
+                          },
+                          "children": [
+                            {
+                              "type": "LayoutItem",
+                              "variant": "default",
+                              "props": {
+                                "xs": 12
+                              },
+                              "children": [
+                                {
+                                  "type": "Placeholder",
+                                  "variant": "default",
+                                  "props": {},
+                                  "children": [],
+                                  "namespace": "MUI"
+                                }
+                              ],
+                              "namespace": "MUI"
+                            },
+                            {
+                              "type": "LayoutItem",
+                              "variant": "default",
+                              "props": {
+                                "xs": 12
+                              },
+                              "children": [
+                                {
+                                  "type": "Placeholder",
+                                  "variant": "default",
+                                  "props": {},
+                                  "children": [],
+                                  "namespace": "MUI"
+                                }
+                              ],
+                              "namespace": "MUI"
+                            },
+                            {
+                              "type": "LayoutItem",
+                              "variant": "default",
+                              "props": {
+                                "xs": 12
+                              },
+                              "children": [
+                                {
+                                  "type": "Placeholder",
+                                  "variant": "default",
+                                  "props": {},
+                                  "children": [],
+                                  "namespace": "MUI"
+                                }
+                              ],
+                              "namespace": "MUI"
+                            }
+                          ],
+                          "namespace": "MUI"
+                        }
+                      ],
+                      "namespace": "MUI"
+                    },
+                    {
+                      "type": "LayoutItem",
+                      "variant": "default",
+                      "props": {
+                        "xs": 4
+                      },
+                      "children": [
+                        {
+                          "type": "LayoutContainer",
+                          "variant": "default",
+                          "props": {
+                            "gutter": 24,
+                            "direction": "column",
+                            "align": "center"
+                          },
+                          "children": [
+                            {
+                              "type": "LayoutItem",
+                              "variant": "default",
+                              "props": {
+                                "xs": 12
+                              },
+                              "children": [
+                                {
+                                  "type": "Placeholder",
+                                  "variant": "default",
+                                  "props": {},
+                                  "children": [],
+                                  "namespace": "MUI"
+                                }
+                              ],
+                              "namespace": "MUI"
+                            },
+                            {
+                              "type": "LayoutItem",
+                              "variant": "default",
+                              "props": {
+                                "xs": 12
+                              },
+                              "children": [
+                                {
+                                  "type": "Placeholder",
+                                  "variant": "default",
+                                  "props": {},
+                                  "children": [],
+                                  "namespace": "MUI"
+                                }
+                              ],
+                              "namespace": "MUI"
+                            },
+                            {
+                              "type": "LayoutItem",
+                              "variant": "default",
+                              "props": {
+                                "xs": 12
+                              },
+                              "children": [
+                                {
+                                  "type": "Placeholder",
+                                  "variant": "default",
+                                  "props": {},
+                                  "children": [],
+                                  "namespace": "MUI"
+                                }
+                              ],
+                              "namespace": "MUI"
+                            }
+                          ],
+                          "namespace": "MUI"
+                        }
+                      ],
+                      "namespace": "MUI"
+                    }
+                  ]
+                }
+              ],
+              "namespace": "MUI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "Page85",
+      "pagePath": "/mui-buttons",
+      "children": [
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {
+            "style": {
+              "padding": "3em"
+            }
+          },
+          "children": [
+            {
+              "type": "ThemeProvider",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "h3",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "textAlign": "center"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "With 3 columns"
+                    }
+                  ]
+                },
+                {
+                  "type": "LayoutContainer",
+                  "namespace": "MUI",
+                  "variant": "row with 3 cells",
+                  "props": {
+                    "gutter": 24
+                  },
+                  "children": [
+                    {
+                      "type": "LayoutItem",
+                      "variant": "default",
+                      "props": {
+                        "xs": 4
+                      },
+                      "children": [
+                        {
+                          "type": "Button",
+                          "variant": "default",
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {},
+                              "children": [],
+                              "text": "Button"
+                            }
+                          ],
+                          "namespace": "MUI",
+                          "props": {
+                            "raised": false
+                          }
+                        }
+                      ],
+                      "namespace": "MUI"
+                    },
+                    {
+                      "type": "LayoutItem",
+                      "variant": "default",
+                      "props": {
+                        "xs": 4
+                      },
+                      "children": [
+                        {
+                          "type": "Button",
+                          "variant": "default",
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {},
+                              "children": [],
+                              "text": "Button"
+                            }
+                          ],
+                          "namespace": "MUI",
+                          "props": {
+                            "raised": true,
+                            "primary": true
+                          }
+                        },
+                        {
+                          "type": "MUI",
+                          "variant": "default",
+                          "props": {},
+                          "children": [],
+                          "namespace": "MyWrapper"
+                        }
+                      ],
+                      "namespace": "MUI"
+                    },
+                    {
+                      "type": "LayoutItem",
+                      "variant": "default",
+                      "props": {
+                        "xs": 4
+                      },
+                      "children": [
+                        {
+                          "type": "Button",
+                          "namespace": "MUI",
+                          "variant": "flat",
+                          "props": {
+                            "raised": false,
+                            "primary": true,
+                            "fab": true
+                          },
+                          "children": [
+                            {
+                              "type": "AddIcon",
+                              "variant": "default",
+                              "props": {},
+                              "children": [],
+                              "namespace": "MUIIcons"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "AddIcon",
+                          "variant": "default",
+                          "props": {},
+                          "children": [],
+                          "namespace": "MUIIcons"
+                        }
+                      ],
+                      "namespace": "MUI"
+                    }
+                  ]
+                }
+              ],
+              "namespace": "MUI"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "type": "ThemeProvider",
+    "variant": "default",
+    "props": {},
+    "children": [
+      {
+        "type": "LayoutContainer",
+        "variant": "default",
+        "props": {
+          "gutter": 24
+        },
+        "children": [
+          {
+            "type": "LayoutItem",
+            "variant": "default",
+            "props": {
+              "xs": 12
+            },
+            "children": [
+              {
+                "type": "Placeholder",
+                "variant": "default",
+                "props": {},
+                "children": [],
+                "namespace": "MUI"
+              }
+            ],
+            "namespace": "MUI"
+          }
+        ],
+        "namespace": "MUI"
+      }
+    ],
+    "namespace": "MUI"
+  },
+  {
+    "type": "ThemeProvider",
+    "namespace": "MUI",
+    "variant": "3 cells",
+    "props": {},
+    "children": [
+      {
+        "type": "LayoutContainer",
+        "variant": "default",
+        "props": {
+          "gutter": 24
+        },
+        "children": [
+          {
+            "type": "LayoutItem",
+            "variant": "default",
+            "props": {
+              "xs": 4
+            },
+            "children": [
+              {
+                "type": "Placeholder",
+                "variant": "default",
+                "props": {},
+                "children": [],
+                "namespace": "MUI"
+              }
+            ],
+            "namespace": "MUI"
+          },
+          {
+            "type": "LayoutItem",
+            "variant": "default",
+            "props": {
+              "xs": 4
+            },
+            "children": [
+              {
+                "type": "Placeholder",
+                "variant": "default",
+                "props": {},
+                "children": [],
+                "namespace": "MUI"
+              }
+            ],
+            "namespace": "MUI"
+          },
+          {
+            "type": "LayoutItem",
+            "variant": "default",
+            "props": {
+              "xs": 4
+            },
+            "children": [
+              {
+                "type": "Placeholder",
+                "variant": "default",
+                "props": {},
+                "children": [],
+                "namespace": "MUI"
+              }
+            ],
+            "namespace": "MUI"
+          }
+        ],
+        "namespace": "MUI"
+      }
+    ]
+  }
+]

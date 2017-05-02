@@ -1,0 +1,72 @@
+[
+  {
+    "type": "Button",
+    "variant": "default",
+    "children": [
+      {
+        "type": "span",
+        "variant": "default",
+        "props": {},
+        "children": [],
+        "text": "Button"
+      }
+    ],
+    "namespace": "MUI",
+    "props": {
+      "raised": true
+    }
+  },
+  {
+    "type": "Button",
+    "namespace": "MUI",
+    "variant": "flat",
+    "props": {
+      "raised": false
+    },
+    "children": [
+      {
+        "type": "span",
+        "variant": "default",
+        "props": {},
+        "children": [],
+        "text": "Button"
+      }
+    ]
+  },
+  {
+    "type": "Button",
+    "namespace": "MUI",
+    "variant": "flat primary",
+    "props": {
+      "raised": false,
+      "primary": true
+    },
+    "children": [
+      {
+        "type": "span",
+        "variant": "default",
+        "props": {},
+        "children": [],
+        "text": "Button"
+      }
+    ]
+  },
+  {
+    "type": "Button",
+    "namespace": "MUI",
+    "variant": "raised primary",
+    "props": {
+      "raised": true,
+      "primary": true
+    },
+    "children": [
+      {
+        "type": "span",
+        "variant": "default",
+        "props": {},
+        "children": [],
+        "text": "Button"
+      }
+    ]
+  }
+]

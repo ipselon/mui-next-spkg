@@ -1,0 +1,104 @@
+[
+  {
+    "type": "LayoutItem",
+    "variant": "default",
+    "props": {
+      "xs": 3
+    },
+    "children": [
+      {
+        "type": "Placeholder",
+        "variant": "default",
+        "props": {},
+        "children": [],
+        "namespace": "MUI"
+      }
+    ],
+    "namespace": "MUI"
+  },
+  {
+    "type": "LayoutItem",
+    "namespace": "MUI",
+    "variant": "auto",
+    "props": {
+      "xs": true
+    },
+    "children": [
+      {
+        "type": "Placeholder",
+        "variant": "default",
+        "props": {},
+        "children": [],
+        "namespace": "MUI"
+      }
+    ]
+  },
+  {
+    "type": "LayoutItem",
+    "namespace": "MUI",
+    "variant": "xs = 4",
+    "props": {
+      "xs": 4
+    },
+    "children": [
+      {
+        "type": "Placeholder",
+        "variant": "default",
+        "props": {},
+        "children": [],
+        "namespace": "MUI"
+      }
+    ]
+  },
+  {
+    "type": "LayoutItem",
+    "namespace": "MUI",
+    "variant": "xs = 3",
+    "props": {
+      "xs": 3
+    },
+    "children": [
+      {
+        "type": "Placeholder",
+        "variant": "default",
+        "props": {},
+        "children": [],
+        "namespace": "MUI"
+      }
+    ]
+  },
+  {
+    "type": "LayoutItem",
+    "namespace": "MUI",
+    "variant": "xs = 12",
+    "props": {
+      "xs": 12
+    },
+    "children": [
+      {
+        "type": "Placeholder",
+        "variant": "default",
+        "props": {},
+        "children": [],
+        "namespace": "MUI"
+      }
+    ]
+  },
+  {
+    "type": "LayoutItem",
+    "namespace": "MUI",
+    "variant": "xs = 6",
+    "props": {
+      "xs": 6
+    },
+    "children": [
+      {
+        "type": "Placeholder",
+        "variant": "default",
+        "props": {},
+        "children": [],
+        "namespace": "MUI"
+      }
+    ]
+  }
+]
