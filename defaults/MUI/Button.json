@@ -68,5 +68,24 @@
         "text": "Button"
       }
     ]
+  },
+  {
+    "type": "Button",
+    "namespace": "MUI",
+    "variant": "primary circled",
+    "props": {
+      "raised": true,
+      "primary": true,
+      "fab": true
+    },
+    "children": [
+      {
+        "type": "span",
+        "variant": "default",
+        "props": {},
+        "children": [],
+        "text": "B"
+      }
+    ]
   }
 ]

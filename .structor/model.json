@@ -53,7 +53,7 @@
                           "variant": "default",
                           "props": {},
                           "children": [],
-                          "namespace": "MUI"
+                          "namespace": "Utilities"
                         }
                       ],
                       "namespace": "MUI"
@@ -70,7 +70,7 @@
                           "variant": "default",
                           "props": {},
                           "children": [],
-                          "namespace": "MUI"
+                          "namespace": "Utilities"
                         }
                       ],
                       "namespace": "MUI"
@@ -87,7 +87,7 @@
                           "variant": "default",
                           "props": {},
                           "children": [],
-                          "namespace": "MUI"
+                          "namespace": "Utilities"
                         }
                       ],
                       "namespace": "MUI"
@@ -129,7 +129,7 @@
                           "variant": "default",
                           "props": {},
                           "children": [],
-                          "namespace": "MUI"
+                          "namespace": "Utilities"
                         }
                       ],
                       "namespace": "MUI"
@@ -146,7 +146,7 @@
                           "variant": "default",
                           "props": {},
                           "children": [],
-                          "namespace": "MUI"
+                          "namespace": "Utilities"
                         }
                       ],
                       "namespace": "MUI"
@@ -172,7 +172,7 @@
                           "variant": "default",
                           "props": {},
                           "children": [],
-                          "namespace": "MUI"
+                          "namespace": "Utilities"
                         }
                       ],
                       "namespace": "MUI"
@@ -224,7 +224,7 @@
                           "variant": "default",
                           "props": {},
                           "children": [],
-                          "namespace": "MUI"
+                          "namespace": "Utilities"
                         }
                       ],
                       "namespace": "MUI"
@@ -241,7 +241,7 @@
                           "variant": "default",
                           "props": {},
                           "children": [],
-                          "namespace": "MUI"
+                          "namespace": "Utilities"
                         }
                       ],
                       "namespace": "MUI"
@@ -258,7 +258,7 @@
                           "variant": "default",
                           "props": {},
                           "children": [],
-                          "namespace": "MUI"
+                          "namespace": "Utilities"
                         }
                       ],
                       "namespace": "MUI"
@@ -300,7 +300,7 @@
                           "variant": "default",
                           "props": {},
                           "children": [],
-                          "namespace": "MUI"
+                          "namespace": "Utilities"
                         }
                       ],
                       "namespace": "MUI"
@@ -317,7 +317,7 @@
                           "variant": "default",
                           "props": {},
                           "children": [],
-                          "namespace": "MUI"
+                          "namespace": "Utilities"
                         }
                       ],
                       "namespace": "MUI"
@@ -334,7 +334,7 @@
                           "variant": "default",
                           "props": {},
                           "children": [],
-                          "namespace": "MUI"
+                          "namespace": "Utilities"
                         }
                       ],
                       "namespace": "MUI"
@@ -351,7 +351,7 @@
                           "variant": "default",
                           "props": {},
                           "children": [],
-                          "namespace": "MUI"
+                          "namespace": "Utilities"
                         }
                       ],
                       "namespace": "MUI"
@@ -368,7 +368,7 @@
                           "variant": "default",
                           "props": {},
                           "children": [],
-                          "namespace": "MUI"
+                          "namespace": "Utilities"
                         }
                       ],
                       "namespace": "MUI"
@@ -435,7 +435,7 @@
                                   "variant": "default",
                                   "props": {},
                                   "children": [],
-                                  "namespace": "MUI"
+                                  "namespace": "Utilities"
                                 }
                               ],
                               "namespace": "MUI"
@@ -452,7 +452,7 @@
                                   "variant": "default",
                                   "props": {},
                                   "children": [],
-                                  "namespace": "MUI"
+                                  "namespace": "Utilities"
                                 }
                               ],
                               "namespace": "MUI"
@@ -469,7 +469,7 @@
                                   "variant": "default",
                                   "props": {},
                                   "children": [],
-                                  "namespace": "MUI"
+                                  "namespace": "Utilities"
                                 }
                               ],
                               "namespace": "MUI"
@@ -508,7 +508,7 @@
                                   "variant": "default",
                                   "props": {},
                                   "children": [],
-                                  "namespace": "MUI"
+                                  "namespace": "Utilities"
                                 }
                               ],
                               "namespace": "MUI"
@@ -525,7 +525,7 @@
                                   "variant": "default",
                                   "props": {},
                                   "children": [],
-                                  "namespace": "MUI"
+                                  "namespace": "Utilities"
                                 }
                               ],
                               "namespace": "MUI"
@@ -542,7 +542,7 @@
                                   "variant": "default",
                                   "props": {},
                                   "children": [],
-                                  "namespace": "MUI"
+                                  "namespace": "Utilities"
                                 }
                               ],
                               "namespace": "MUI"
@@ -581,7 +581,7 @@
                                   "variant": "default",
                                   "props": {},
                                   "children": [],
-                                  "namespace": "MUI"
+                                  "namespace": "Utilities"
                                 }
                               ],
                               "namespace": "MUI"
@@ -598,7 +598,7 @@
                                   "variant": "default",
                                   "props": {},
                                   "children": [],
-                                  "namespace": "MUI"
+                                  "namespace": "Utilities"
                                 }
                               ],
                               "namespace": "MUI"
@@ -615,7 +615,7 @@
                                   "variant": "default",
                                   "props": {},
                                   "children": [],
-                                  "namespace": "MUI"
+                                  "namespace": "Utilities"
                                 }
                               ],
                               "namespace": "MUI"
@@ -654,21 +654,6 @@
               "props": {},
               "children": [
                 {
-                  "type": "h3",
-                  "variant": "default",
-                  "props": {
-                    "style": {
-                      "textAlign": "center"
-                    }
-                  },
-                  "children": [
-                    {
-                      "type": "span",
-                      "text": "With 3 columns"
-                    }
-                  ]
-                },
-                {
                   "type": "LayoutContainer",
                   "namespace": "MUI",
                   "variant": "row with 3 cells",
@@ -683,6 +668,21 @@
                         "xs": 4
                       },
                       "children": [
+                        {
+                          "type": "h3",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "textAlign": "center"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "Flat button"
+                            }
+                          ]
+                        },
                         {
                           "type": "Button",
                           "variant": "default",
@@ -711,8 +711,28 @@
                       },
                       "children": [
                         {
-                          "type": "Button",
+                          "type": "h3",
                           "variant": "default",
+                          "props": {
+                            "style": {
+                              "textAlign": "center"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "Raised button"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Button",
+                          "namespace": "MUI",
+                          "variant": "raised primary",
+                          "props": {
+                            "raised": true,
+                            "primary": true
+                          },
                           "children": [
                             {
                               "type": "span",
@@ -721,12 +741,7 @@
                               "children": [],
                               "text": "Button"
                             }
-                          ],
-                          "namespace": "MUI",
-                          "props": {
-                            "raised": true,
-                            "primary": true
-                          }
+                          ]
                         },
                         {
                           "type": "MUI",
@@ -746,30 +761,38 @@
                       },
                       "children": [
                         {
+                          "type": "h3",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "textAlign": "center"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "Circled button"
+                            }
+                          ]
+                        },
+                        {
                           "type": "Button",
                           "namespace": "MUI",
-                          "variant": "flat",
+                          "variant": "raised primary",
                           "props": {
-                            "raised": false,
+                            "raised": true,
                             "primary": true,
                             "fab": true
                           },
                           "children": [
                             {
-                              "type": "AddIcon",
+                              "type": "span",
                               "variant": "default",
                               "props": {},
                               "children": [],
-                              "namespace": "MUIIcons"
+                              "text": "B"
                             }
                           ]
-                        },
-                        {
-                          "type": "AddIcon",
-                          "variant": "default",
-                          "props": {},
-                          "children": [],
-                          "namespace": "MUIIcons"
                         }
                       ],
                       "namespace": "MUI"

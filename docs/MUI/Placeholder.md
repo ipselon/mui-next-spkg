@@ -1,3 +1,0 @@
-##### Placeholder
-
-No properties

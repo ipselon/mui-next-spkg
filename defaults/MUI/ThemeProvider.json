@@ -23,7 +23,7 @@
                 "variant": "default",
                 "props": {},
                 "children": [],
-                "namespace": "MUI"
+                "namespace": "Utilities"
               }
             ],
             "namespace": "MUI"
@@ -59,7 +59,7 @@
                 "variant": "default",
                 "props": {},
                 "children": [],
-                "namespace": "MUI"
+                "namespace": "Utilities"
               }
             ],
             "namespace": "MUI"
@@ -76,7 +76,7 @@
                 "variant": "default",
                 "props": {},
                 "children": [],
-                "namespace": "MUI"
+                "namespace": "Utilities"
               }
             ],
             "namespace": "MUI"
@@ -93,7 +93,7 @@
                 "variant": "default",
                 "props": {},
                 "children": [],
-                "namespace": "MUI"
+                "namespace": "Utilities"
               }
             ],
             "namespace": "MUI"
