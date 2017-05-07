@@ -1,0 +1,51 @@
+[
+  {
+    "type": "Paper",
+    "variant": "default",
+    "children": [],
+    "namespace": "MUI"
+  },
+  {
+    "type": "Paper",
+    "namespace": "MUI",
+    "variant": "elevation-5",
+    "props": {
+      "style": {
+        "width": 100,
+        "height": 100,
+        "padding": "15px"
+      },
+      "elevation": 5
+    },
+    "children": [
+      {
+        "type": "div",
+        "variant": "default",
+        "props": {},
+        "children": [
+          {
+            "type": "div",
+            "variant": "default",
+            "props": {
+              "style": {
+                "display": "flex",
+                "justifyContent": "center",
+                "height": "100px",
+                "alignItems": "center",
+                "backgroundColor": "#fcecd7",
+                "borderRadius": "4px"
+              }
+            },
+            "children": [
+              {
+                "type": "span",
+                "text": "Empty div",
+                "props": {}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

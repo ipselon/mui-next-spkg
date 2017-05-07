@@ -3,20 +3,20 @@
   "dependencies": {
     "packages": [
       {
-        "name": "material-ui-icons",
-        "version": "1.0.0-alpha.3"
+        "name": "expect",
+        "version": "1.20.2"
       },
       {
         "name": "react",
         "version": "15.5.4"
       },
       {
-        "name": "material-ui",
-        "version": "1.0.0-alpha.12"
-      },
-      {
         "name": "prop-types",
         "version": "15.5.8"
+      },
+      {
+        "name": "material-ui",
+        "version": "1.0.0-alpha.12"
       }
     ]
   }
