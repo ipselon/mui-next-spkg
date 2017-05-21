@@ -9,9 +9,6 @@ import PropTypes from "prop-types";
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 class ThemeProvider extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     return (

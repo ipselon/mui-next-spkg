@@ -8,10 +8,6 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import Layout from 'material-ui/Layout';
 
-const style = {
-  flexGrow: 1,
-};
-
 class LayoutContainer extends Component {
   constructor(props) {
     super(props);
