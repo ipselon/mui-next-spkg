@@ -6,21 +6,18 @@
 
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import Layout from 'material-ui/Layout';
+import Grid from 'material-ui/Grid';
 
 class LayoutItem extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      exampleValue: ""
-    };
   }
 
   render() {
     return (
-      <Layout item {...this.props}>
+      <Grid item {...this.props}>
         {this.props.children}
-      </Layout>
+      </Grid>
     );
   }
 }

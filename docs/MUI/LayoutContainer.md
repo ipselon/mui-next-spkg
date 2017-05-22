@@ -1,4 +1,4 @@
-##### `LayoutContainer` - wrapper for MUI Layout container
+##### `LayoutContainer` - wrapper for MUI Grid container
 
 ##### Properties
 

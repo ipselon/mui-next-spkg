@@ -1,0 +1,34 @@
+[
+  {
+    "type": "DataList",
+    "variant": "default",
+    "children": [],
+    "namespace": "DataAware",
+    "props": {}
+  },
+  {
+    "type": "DataList",
+    "namespace": "DataAware",
+    "variant": "3 items",
+    "props": {
+      "data": [
+        {
+          "id": 1,
+          "primaryText": "New Item 1",
+          "secondaryText": ""
+        },
+        {
+          "id": 2,
+          "primaryText": "New Item 2",
+          "secondaryText": ""
+        },
+        {
+          "id": 3,
+          "primaryText": "New Item 3",
+          "secondaryText": ""
+        }
+      ]
+    },
+    "children": []
+  }
+]

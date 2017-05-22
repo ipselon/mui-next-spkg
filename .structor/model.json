@@ -658,14 +658,18 @@
                   "namespace": "MUI",
                   "variant": "row with 3 cells",
                   "props": {
-                    "gutter": 24
+                    "gutter": 24,
+                    "justify": "center"
                   },
                   "children": [
                     {
                       "type": "LayoutItem",
                       "variant": "default",
                       "props": {
-                        "xs": 4
+                        "xs": 4,
+                        "style": {
+                          "textAlign": "center"
+                        }
                       },
                       "children": [
                         {
@@ -707,7 +711,10 @@
                       "type": "LayoutItem",
                       "variant": "default",
                       "props": {
-                        "xs": 4
+                        "xs": 4,
+                        "style": {
+                          "textAlign": "center"
+                        }
                       },
                       "children": [
                         {
@@ -757,7 +764,10 @@
                       "type": "LayoutItem",
                       "variant": "default",
                       "props": {
-                        "xs": 4
+                        "xs": 4,
+                        "style": {
+                          "textAlign": "center"
+                        }
                       },
                       "children": [
                         {
@@ -801,6 +811,277 @@
                 }
               ],
               "namespace": "MUI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "Page209",
+      "pagePath": "/tutorial-notepad",
+      "children": [
+        {
+          "type": "div",
+          "props": {
+            "style": {
+              "display": "flex",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "padding": "1em"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "children": [
+                {
+                  "type": "ThemeProvider",
+                  "variant": "default",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "h3",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "textAlign": "center"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "My Notes"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "width": "50em",
+                          "padding": "2em 1em",
+                          "borderStyle": "solid",
+                          "borderWidth": "1px",
+                          "borderColor": "#e8d8d8"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "LayoutContainer",
+                          "namespace": "MUI",
+                          "variant": "row with 2 cells",
+                          "props": {
+                            "gutter": 24
+                          },
+                          "children": [
+                            {
+                              "type": "LayoutItem",
+                              "variant": "default",
+                              "props": {
+                                "xs": 6
+                              },
+                              "children": [
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "height": "22em",
+                                      "overflow": "auto"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "DataList",
+                                      "namespace": "DataAware",
+                                      "variant": "3 items",
+                                      "props": {
+                                        "data": [
+                                          {
+                                            "id": 1,
+                                            "primaryText": "Note 1",
+                                            "secondaryText": "Note Text"
+                                          },
+                                          {
+                                            "id": 2,
+                                            "primaryText": "Note 1",
+                                            "secondaryText": "Note Text"
+                                          },
+                                          {
+                                            "id": 3,
+                                            "primaryText": "Note 2",
+                                            "secondaryText": "Note Text"
+                                          }
+                                        ]
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ],
+                              "namespace": "MUI"
+                            },
+                            {
+                              "type": "LayoutItem",
+                              "variant": "default",
+                              "props": {
+                                "xs": 6,
+                                "style": {
+                                  "borderLeftStyle": "solid",
+                                  "borderLeftWidth": "1px",
+                                  "borderLeftColor": "#e8d8d8"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "height": "200px",
+                                      "width": "100%"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "TextField",
+                                      "variant": "default",
+                                      "children": [],
+                                      "namespace": "MUI",
+                                      "props": {
+                                        "label": "Title"
+                                      }
+                                    },
+                                    {
+                                      "type": "TextField",
+                                      "namespace": "MUI",
+                                      "variant": "multiline",
+                                      "props": {
+                                        "label": "Text",
+                                        "multiline": true,
+                                        "rows": 4
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "LayoutContainer",
+                                  "namespace": "MUI",
+                                  "variant": "row with 3 cells",
+                                  "props": {
+                                    "gutter": 16,
+                                    "justify": "center"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "LayoutItem",
+                                      "variant": "default",
+                                      "props": {
+                                        "xs": 4,
+                                        "align": "center"
+                                      },
+                                      "children": [
+                                        {
+                                          "type": "Button",
+                                          "namespace": "MUI",
+                                          "variant": "raised primary",
+                                          "props": {
+                                            "raised": true,
+                                            "primary": true,
+                                            "style": {
+                                              "width": "100%"
+                                            }
+                                          },
+                                          "children": [
+                                            {
+                                              "type": "span",
+                                              "variant": "default",
+                                              "props": {},
+                                              "children": [],
+                                              "text": "Add"
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "namespace": "MUI"
+                                    },
+                                    {
+                                      "type": "LayoutItem",
+                                      "variant": "default",
+                                      "props": {
+                                        "xs": 4
+                                      },
+                                      "children": [
+                                        {
+                                          "type": "Button",
+                                          "namespace": "MUI",
+                                          "variant": "raised primary",
+                                          "props": {
+                                            "raised": true,
+                                            "accent": true,
+                                            "style": {
+                                              "width": "100%"
+                                            }
+                                          },
+                                          "children": [
+                                            {
+                                              "type": "span",
+                                              "variant": "default",
+                                              "props": {},
+                                              "children": [],
+                                              "text": "Delete"
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "namespace": "MUI"
+                                    },
+                                    {
+                                      "type": "LayoutItem",
+                                      "variant": "default",
+                                      "props": {
+                                        "xs": 4
+                                      },
+                                      "children": [
+                                        {
+                                          "type": "Button",
+                                          "namespace": "MUI",
+                                          "variant": "raised primary",
+                                          "props": {
+                                            "raised": true,
+                                            "primary": true,
+                                            "style": {
+                                              "width": "100%"
+                                            }
+                                          },
+                                          "children": [
+                                            {
+                                              "type": "span",
+                                              "variant": "default",
+                                              "props": {},
+                                              "children": [],
+                                              "text": "Save"
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "namespace": "MUI"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "namespace": "MUI"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "namespace": "MUI"
+                }
+              ]
             }
           ]
         }

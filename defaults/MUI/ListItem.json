@@ -1,0 +1,21 @@
+[
+  {
+    "type": "ListItem",
+    "variant": "default",
+    "children": [
+      {
+        "type": "ListItemText",
+        "variant": "default",
+        "children": [],
+        "namespace": "MUI",
+        "props": {
+          "primary": "Text"
+        }
+      }
+    ],
+    "namespace": "MUI",
+    "props": {
+      "button": true
+    }
+  }
+]

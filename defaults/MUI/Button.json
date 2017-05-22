@@ -72,6 +72,24 @@
   {
     "type": "Button",
     "namespace": "MUI",
+    "variant": "raised danger",
+    "props": {
+      "raised": true,
+      "accent": true
+    },
+    "children": [
+      {
+        "type": "span",
+        "variant": "default",
+        "props": {},
+        "children": [],
+        "text": "Delete"
+      }
+    ]
+  },
+  {
+    "type": "Button",
+    "namespace": "MUI",
     "variant": "primary circled",
     "props": {
       "raised": true,

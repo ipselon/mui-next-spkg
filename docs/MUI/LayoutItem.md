@@ -1,4 +1,4 @@
-##### `LayoutItem` - wrapper for MUI Layout item
+##### `LayoutItem` - wrapper for MUI Grid item
 
 ##### Properties
 

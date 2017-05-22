@@ -1,0 +1,43 @@
+[
+  {
+    "type": "TextField",
+    "variant": "default",
+    "children": [],
+    "namespace": "MUI",
+    "props": {
+      "label": "Text"
+    }
+  },
+  {
+    "type": "TextField",
+    "namespace": "MUI",
+    "variant": "required",
+    "props": {
+      "label": "Text",
+      "required": true
+    },
+    "children": []
+  },
+  {
+    "type": "TextField",
+    "namespace": "MUI",
+    "variant": "with error",
+    "props": {
+      "label": "Text",
+      "required": true,
+      "error": true
+    },
+    "children": []
+  },
+  {
+    "type": "TextField",
+    "namespace": "MUI",
+    "variant": "multiline",
+    "props": {
+      "label": "Multiline",
+      "multiline": true,
+      "rows": 4
+    },
+    "children": []
+  }
+]
