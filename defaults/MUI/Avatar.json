@@ -1,0 +1,11 @@
+[
+  {
+    "type": "Avatar",
+    "variant": "default",
+    "children": [],
+    "namespace": "MUI",
+    "props": {
+      "src": ""
+    }
+  }
+]

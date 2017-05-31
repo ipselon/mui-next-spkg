@@ -11,8 +11,12 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 class ThemeProvider extends Component {
 
   render() {
+    const {styleManager, theme} = this.props;
     return (
-      <MuiThemeProvider>
+      <MuiThemeProvider
+        styleManager={styleManager}
+        theme={theme}
+      >
         <div>
           {this.props.children}
         </div>
@@ -22,7 +26,9 @@ class ThemeProvider extends Component {
 }
 
 ThemeProvider.propTypes = {
-  children: PropTypes.node
+  children: PropTypes.node,
+  styleManager: PropTypes.object,
+  theme: PropTypes.object
 };
 ThemeProvider.defaultProps = {
   children: null

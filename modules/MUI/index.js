@@ -1,7 +1,9 @@
 import ThemeProvider from './components/ThemeProvider';
 import LayoutContainer from './components/LayoutContainer';
 import LayoutItem from './components/LayoutItem';
+import Avatar from 'material-ui/Avatar';
 import Button from 'material-ui/Button';
+import Paper from 'material-ui/Paper';
 import TextField from 'material-ui/TextField';
 import List, {
   ListItem,
@@ -15,12 +17,14 @@ export {
   ThemeProvider,
   LayoutContainer,
   LayoutItem,
+  Avatar,
   Button,
-  TextField,
   List,
   ListItem,
   ListItemAvatar,
   ListItemIcon,
   ListItemSecondaryAction,
-  ListItemText
+  ListItemText,
+  Paper,
+  TextField,
 };

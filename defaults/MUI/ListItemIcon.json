@@ -1,0 +1,19 @@
+[
+  {
+    "type": "ListItemIcon",
+    "variant": "default",
+    "children": [
+      {
+        "type": "AddCircleIcon",
+        "variant": "default",
+        "children": [],
+        "namespace": "MUIIcons",
+        "props": {}
+      }
+    ],
+    "namespace": "MUI",
+    "props": {
+      "button": true
+    }
+  }
+]
