@@ -4,7 +4,7 @@
     <img width="40%" src="https://raw.githubusercontent.com/ipselon/mui-next-spkg/master/screenshot.png" />
 </p>
 
-This package contains presets of components from [Material UI library of the next version](https://material-ui-1dab0.firebaseapp.com).
+This package contains presets of components from [Material UI library of the next version](https://material-ui-next.com).
 
 #### The content of the package:
 * ThemeProvider wrapper
